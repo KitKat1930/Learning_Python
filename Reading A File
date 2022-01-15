@@ -1,0 +1,27 @@
+# First, open Notepad. Create a list of names, with each name on its own seperate line.
+
+# My text file: 'Names.txt'
+
+# Annastasia
+# Audrey
+# Beatrice
+# Beverly
+# Elizabeth
+# Fiona
+3 Joselyn
+# Lillian
+# Kathryn
+# Kimberly
+# Stephanie
+# Susannah
+# Victoria
+
+# The first half of this program reads the text file 'Names.txt'.
+# The program then reads the contents of the text file into a string document names 'contents'.
+# The file is then closed and the data is printed.
+
+f = open("Names.txt", "rt")
+contents = f.read()
+f.close()
+
+print(contents)
