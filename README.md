@@ -33,12 +33,16 @@ Environment Setup
 •	Under user variable, click on New…
 
 •	Give variable name
+
     - I chose PATHPYTHON27;
+    
     - Add a Semicolon to the existing value
+    
     - Then paste the copied location
+    
     - C:\Program Files\Python27
     
-Then click OK, OK, OK….
+•	Then click OK, OK, OK….
 
 
 ### **III.	Verify that the Python Interpreter was installed properly** 
@@ -47,11 +51,11 @@ Then click OK, OK, OK….
 
     - I named my folder “Python Programs”
     
-Double click on the folder
+•	Double click on the folder
 
-In the address bar type “cmd” and hit ENTER         
+•	In the address bar type “cmd” and hit ENTER         
 
-You should see a window pop up that looks like the following image:             
+•	You should see a window pop up that looks like the following image:             
 
  
 
