@@ -1,0 +1,43 @@
+print ("This program will explore how the For Loop works.\n")
+
+print("Objective: \n") 
+print("Write a loop that starts at the last character in the string \nand works its way backwards to the first character in the string.\n")
+print("The program will print each letter on a seperate line, except backwards.\n")
+
+MyWord = input("Please enter a word: \n")
+
+print("\n")
+
+length = len(MyWord)
+# For example, let's say we choose the word Storm. 
+# There are 5 letters in the word Storm. 
+# So, we have set the variable length equal to a value of 5. 
+
+
+# However, a string is a sequence of characters and those characters 
+# start at position 0, not position 1! 
+# So, S is index position 0, t is index position 1, etc. 
+
+index = 0
+
+while index < len(MyWord):
+	LastLetter = MyWord[length-1]
+	print(LastLetter)
+	length = length-1
+	index = index+1
+
+# Alright, so we start at the beginning of the loop. 
+# We will again choose the word Storm for this example.
+# As a reminder, the variable length has a value of 5.
+
+# index is currently = 0, and len(MyWord) = 5
+# Since 0 < 5, the loop will execute.
+
+# Alright, so the variable LastLetter is equal to the last character 
+# in the string MyWord and has an index value of 5-1 or 4. The character m 
+# will print.
+
+# The next piece of code, length = length-1, will now set the value of the variable 
+# length = 4. 
+
+# The value of the variable index is increased by 1. So, the value is now equal to 1. 
