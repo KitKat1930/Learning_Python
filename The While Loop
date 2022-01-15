@@ -1,3 +1,6 @@
+# When would you use a While...Loop?
+# While loops are used when the execution of a command, or group of commands, will need to be repeated but the number of passes IS NOT KNOWN in advance!!!
+
 print ("This program will explore how the While Loop works.\n")
 
 print("Objective: \n") 
