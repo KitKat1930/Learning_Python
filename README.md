@@ -53,9 +53,7 @@ Environment Setup
     
 •	Double click on the folder
 
-•	In the address bar type “cmd” and hit ENTER         
-
-•	You should see a window pop up that looks like the following image:             
+•	In the address bar type “cmd” and hit ENTER                  
 
  
 
