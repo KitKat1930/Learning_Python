@@ -1,4 +1,4 @@
-print ("This program will explore how the For Loop works.\n")
+print ("This program will explore how the While Loop works.\n")
 
 print("Objective: \n") 
 print("Write a loop that starts at the last character in the string \nand works its way backwards to the first character in the string.\n")
