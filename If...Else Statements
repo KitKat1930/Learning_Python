@@ -1,0 +1,22 @@
+# Python supports the usual logical conditions from mathematics:
+
+# Equals: a == b
+# Not Equals: a != b
+# Less than: a < b
+# Less than or equal to: a <= b
+# Greater than: a > b
+# Greater than or equal to: a >= b
+# These conditions can be used in several ways, most commonly in "if statements" and loops.
+
+# An "if statement" is written by using the if keyword.
+# The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+# The else keyword catches anything which isn't caught by the preceding conditions.
+
+A = input("Please enter a number for Variable A: \n")
+
+B = input("Please enter a different number for Variable B: \n")
+
+if A > B:
+	print(" Variable A is greater than Variable B!")
+else:
+	print ("Variable A is less than Variable B!")
