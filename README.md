@@ -19,6 +19,7 @@ Environment Setup
 ### **II.	SET UP**
 
 •	Go to the directory where python.exe file is present
+
       - Mine was:
                   C:\Program Files\Python27
                   
