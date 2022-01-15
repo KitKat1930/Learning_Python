@@ -20,5 +20,5 @@ for x in MyWord:
 # So what's happening here? 
 
 # Each time through the loop, the next character in the string is 
-# assigned to the variable char. The loop will continue until no
+# assigned to the variable x. The loop will continue until no
 # characters are left. 
