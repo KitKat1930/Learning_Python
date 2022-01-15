@@ -1,5 +1,5 @@
 # When would you use a For Loop?
-# A For loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+# For loops are used when the execution of a command, or group of commands, will need to be repeated a predetermined number of times!!!
 # The for loop does not require an indexing variable to be set beforehand in python! 
 
 
