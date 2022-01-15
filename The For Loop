@@ -1,0 +1,21 @@
+print ("This program will explore how the For Loop works.\n")
+
+print("Objective: \n") 
+print("Write a loop that starts at the first character in a string.")
+print("The loop will print each letter on a seperate line.")
+print("The loop will continue to print each character in the string until there are no characters left.")
+
+MyWord = input("Please enter a word: \n")
+
+print("\n")
+
+for x in MyWord:
+	print(x)
+
+# So what's happening here? 
+
+# Each time through the loop, the next character in the string is 
+# assigned to the variable char. The loop will continue until no
+# characters are left. 
+
+# The for loop does not require an indexing variable to be set beforehand in python! 
